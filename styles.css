@@ -16,6 +16,8 @@ body {
 
 img {
     width: 100px;
+    border-radius: 50%;
+    height: 100px;
 }
 
 #heroSection {
@@ -53,7 +55,7 @@ img {
     background-color: #8CBAAA;
     width: 720px;
     height: 343px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* margin-top: -19px; */
 }
 
@@ -64,15 +66,30 @@ img {
 
 #activities {
     display: flex;
+    justify-content: space-between;
+    color: #1D3557;
 }
 
 #activitie_1 {
-    border: 1px solid red;
+    width: 200px;
+    height: 230px;
 }
 
 #activitie_2 {
-    border: 1px solid red;
+
+    width: 200px;
+    height: 230px;
 }
 #activitie_3 {
+
+    width: 200px;
+    height: 230px;
+    
+}
+
+#guideSection {
+    width: 720px;
+    height: 343px;
     border: 1px solid red;
+
 }
