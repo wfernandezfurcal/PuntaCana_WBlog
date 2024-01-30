@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-img {
+.img {
     width: 100px;
     border-radius: 50%;
     height: 100px;
@@ -90,6 +90,21 @@ img {
 #guideSection {
     width: 720px;
     height: 343px;
-    border: 1px solid red;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    
 }
+
+#myGuide {
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid blue; */
+    display: flex;
+    background-color: #457B9D;
+    border-radius: 10px;
+    
+}
+
