@@ -14,27 +14,13 @@ body {
     flex-direction: column;
 }
 
-.img {
-    width: 100px;
-    border-radius: 50%;
-    height: 100px;
-}
-
 #heroSection {
     background-image: url(images/beach.jpeg);
-    width: 720px;
-    height: 343px;
     font-family: "Akshar", sans-serif;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid red; */
-
 }
 
 #title {
-    /* border: 1px solid red; */
     padding: 1px 9px 1px 9px;
     border-radius: 10px;
     font-size: 12px;
@@ -53,58 +39,62 @@ body {
 
 #activitiesSection {
     background-color: #8CBAAA;
-    width: 720px;
-    height: 343px;
-    border: 1px solid red;
-    /* margin-top: -19px; */
+    font-family: "Open Sans", sans-serif;
+    color: #1D3557;
 }
 
 #activitiesTitle {
     margin-top: 28px;
-    color: #1D3557;
+    font-size: 22px;
+    font-weight: 400;
+
 }
 
 #activities {
     display: flex;
     justify-content: space-between;
-    color: #1D3557;
-}
-
-#activitie_1 {
-    width: 200px;
-    height: 230px;
-}
-
-#activitie_2 {
-
-    width: 200px;
-    height: 230px;
-}
-#activitie_3 {
-
-    width: 200px;
-    height: 230px;
-    
 }
 
 #guideSection {
-    width: 720px;
-    height: 343px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-    
+    font-family: "Open Sans", sans-serif;
+    color: #1D3557;
 }
 
 #myGuide {
     width: 400px;
-    height: 300px;
-    /* border: 1px solid blue; */
+    height: 290px;
     display: flex;
-    background-color: #457B9D;
+    align-items: center;
+    justify-content: center;
+    background-color: #6490AB;
     border-radius: 10px;
-    
+    box-shadow: 0 5px 0 #1D3557;
 }
 
+#myGuideImg {
+    margin-top: 70px;
+}
+
+/* Class */
+
+.sectionSize {
+    width: 720px;
+    height: 343px;
+}
+
+.activitieSize {
+    width: 200px;
+    height: 230px;
+}
+
+.img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.flexDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
